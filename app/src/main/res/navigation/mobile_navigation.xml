@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.aprimorandoconhecimentoss.ui.home.HomeFragment"
+        android:label="@string/menu_aprimorando"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/nav_conhecauftm"
+        android:name="com.example.aprimorandoconhecimentoss.ui.conhecauftm.ConhecaUftmFragment"
+        android:label="@string/menu_aprimorando"
+        tools:layout="@layout/fragment_conhecauftm" />
+    <fragment
+        android:id="@+id/nav_regu_graducao"
+        android:name="com.example.aprimorandoconhecimentoss.ui.reggraduacao.RegGraduacaoFragment"
+        android:label="@string/menu_aprimorando"
+        tools:layout="@layout/regulamento_grad_fragment" />
+    <fragment
+        android:id="@+id/nav_dir_dev_discentes"
+        android:name="com.example.aprimorandoconhecimentoss.ui.dirdeveresdisc.DireitosDeveresDiscente"
+        android:label="@string/menu_aprimorando"
+        tools:layout="@layout/fragment_dirdevdiscente" />
+    <fragment
+        android:id="@+id/nav_pro_reitorias"
+        android:name="com.example.aprimorandoconhecimentoss.ui.proreitorias.Proreitorias"
+        android:label="@string/menu_aprimorando"
+        tools:layout="@layout/fragment_proreitorias" />
+    <fragment
+        android:id="@+id/nav_inst_uftm"
+        android:name="com.example.aprimorandoconhecimentoss.ui.institutos.Institutos"
+        android:label="@string/menu_aprimorando"
+        tools:layout="@layout/fragment_institutos" />
+    <fragment
+        android:id="@+id/nav_calendario_academico"
+        android:name="com.example.aprimorandoconhecimentoss.ui.calendario.CalendarioFragment"
+        android:label="@string/menu_calendario_academico"
+        android:background="#B6B5B4"
+        tools:layout="@layout/fragment_calendario" >
+        <action
+            android:id="@+id/action_nav_calendario_academico_to_pdfVisualizador2"
+            app:destination="@id/pdfVisualizador2"
+            app:enterAnim="@anim/slide_in"
+            app:exitAnim="@anim/slide_out" />
+    </fragment>
+    <fragment
+        android:id="@+id/pdfVisualizador2"
+        android:name="com.example.aprimorandoconhecimentoss.ui.pdf.PdfVisualizador"
+        android:label="fragment_pdfvisualizador"
+        tools:layout="@layout/fragment_pdfvisualizador" />
+    <fragment
+        android:id="@+id/nav_diretorios_academicos"
+        android:name="com.example.aprimorandoconhecimentoss.ui.diracademicos.DiretoriosAcad"
+        android:label="fragment_pdfvisualizador"
+        tools:layout="@layout/fragment_diretoriosacad" />
+    <fragment
+        android:id="@+id/nav_ligas"
+        android:name="com.example.aprimorandoconhecimentoss.ui.ligas.Ligas"
+        android:label="@string/menu_aprimorando"
+        tools:layout="@layout/fragment_ligas" />
+    <fragment
+        android:id="@+id/nav_iniciacao_cientifica"
+        android:name="com.example.aprimorandoconhecimentoss.ui.iniciacaocient.IniciacaoCientifica"
+        android:label="@string/menu_aprimorando"
+        tools:layout="@layout/fragment_iniciacaocientifica" />
+    <fragment
+        android:id="@+id/nav_coordenacoes"
+        android:name="com.example.aprimorandoconhecimentoss.ui.coordenacoes.Coordenacoes"
+        android:label="@string/menu_aprimorando"
+        tools:layout="@layout/fragment_coordenacoes" />
+    <fragment
+        android:id="@+id/nav_mural_de_informacoes"
+        android:name="com.example.aprimorandoconhecimentoss.ui.muralinfo.MuralInformacoes"
+        android:label="@string/menu_aprimorando"
+        tools:layout="@layout/fragment_muralinformacoes" />
+
+
+</navigation>

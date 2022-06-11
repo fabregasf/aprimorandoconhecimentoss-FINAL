@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:orientation="vertical"
+    android:scrollY="@dimen/activity_vertical_margin"
+    android:scrollbarStyle="insideInset"
+    android:theme="@style/Theme.Aprimorando.Cards"
+    app:navGraph="@navigation/mobile_navigation"
+    tools:context=".ui.calendario.CalendarioFragment">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/pdf_cefores"
+        android:layout_width="344dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="18dp"
+        android:fadingEdge="horizontal"
+        android:orientation="horizontal"
+        android:theme="@style/Theme.Aprimorando.Cards"
+        app:cardCornerRadius="6dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="200dp"
+            android:layout_height="120dp"
+            android:src="@drawable/cefores" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="220dp"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical"
+            android:theme="@style/Theme.Aprimorando.Cards">
+
+            <Button
+                android:id="@+id/botao_view1"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="10dp"
+                android:alpha="1"
+                android:text="Ver"
+                android:textSize="14sp"
+                android:theme="@style/Theme.Aprimorando.BotoesPdf"
+                app:icon="@drawable/calendario_icon" />
+
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/pdf_pedagogia"
+        android:layout_width="344dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="14dp"
+        android:fadingEdge="horizontal"
+        android:orientation="horizontal"
+        android:theme="@style/Theme.Aprimorando.Cards"
+        app:cardCornerRadius="6dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="200dp"
+            android:layout_height="120dp"
+            android:src="@drawable/pedagogia_ead" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="220dp"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical"
+            android:theme="@style/Theme.Aprimorando.Cards">
+
+            <Button
+                android:id="@+id/botao_view3"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:alpha="1"
+                android:fontFamily="@font/fontes"
+                android:text="Ver"
+                android:textSize="14sp"
+                android:theme="@style/Theme.Aprimorando.BotoesPdf"
+                app:icon="@drawable/calendario_icon" />
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/pdf_campus_sede"
+        android:layout_width="344dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="14dp"
+        android:fadingEdge="horizontal"
+        android:orientation="horizontal"
+        android:theme="@style/Theme.Aprimorando.Cards"
+        app:cardCornerRadius="6dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="200dp"
+            android:layout_height="120dp"
+            android:fitsSystemWindows="false"
+            android:requiresFadingEdge="horizontal"
+            android:src="@drawable/campus_sede" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="220dp"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical"
+            android:theme="@style/Theme.Aprimorando.Cards">
+
+            <Button
+                android:id="@+id/botao_view4"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:alpha="1"
+                android:fontFamily="@font/fontes"
+                android:text="Ver"
+                android:textSize="14sp"
+                android:theme="@style/Theme.Aprimorando.BotoesPdf"
+                app:icon="@drawable/calendario_icon" />
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/pdf_lecampo"
+        android:layout_width="344dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="14dp"
+        android:fadingEdge="horizontal"
+        android:orientation="horizontal"
+        android:theme="@style/Theme.Aprimorando.Cards"
+        app:cardCornerRadius="6dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="200dp"
+            android:layout_height="120dp"
+            android:fitsSystemWindows="false"
+            android:src="@drawable/lecampo" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="220dp"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical"
+            android:theme="@style/Theme.Aprimorando.Cards">
+
+            <Button
+                android:id="@+id/botao_view5"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:alpha="1"
+                android:fontFamily="@font/fontes"
+                android:text="Ver"
+                android:textSize="14sp"
+                android:theme="@style/Theme.Aprimorando.BotoesPdf"
+                app:icon="@drawable/calendario_icon" />
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/pdf_graduacao_icene"
+        android:layout_width="344dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="14dp"
+        android:fadingEdge="horizontal"
+        android:orientation="horizontal"
+        android:theme="@style/Theme.Aprimorando.Cards"
+        app:cardCornerRadius="6dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="200dp"
+            android:layout_height="120dp"
+            android:fitsSystemWindows="false"
+            android:src="@drawable/icene" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="220dp"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical"
+            android:theme="@style/Theme.Aprimorando.Cards">
+
+            <Button
+                android:id="@+id/botao_view7"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:alpha="1"
+                android:fontFamily="@font/fontes"
+                android:text="Ver"
+                android:textSize="14sp"
+                android:theme="@style/Theme.Aprimorando.BotoesPdf"
+                app:icon="@drawable/calendario_icon" />
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/pdf_graduacao_icte"
+        android:layout_width="344dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="14dp"
+        android:fadingEdge="horizontal"
+        android:orientation="horizontal"
+        android:theme="@style/Theme.Aprimorando.Cards"
+        app:cardCornerRadius="6dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="200dp"
+            android:layout_height="120dp"
+            android:fitsSystemWindows="false"
+            android:src="@drawable/icte" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="220dp"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical"
+            android:theme="@style/Theme.Aprimorando.Cards">
+
+            <Button
+                android:id="@+id/botao_view6"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:alpha="1"
+                android:fontFamily="@font/fontes"
+                android:text="Ver"
+                android:textSize="14sp"
+                android:theme="@style/Theme.Aprimorando.BotoesPdf"
+                app:icon="@drawable/calendario_icon" />
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+</GridLayout>
+</ScrollView>

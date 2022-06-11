@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="../../../layout/custom_preview.xml" value="0.2520833333333333" />
+        <entry key="app/src/main/res/drawable-anydpi/coordenacoes_icon.xml" value="0.281" />
+        <entry key="app/src/main/res/drawable-anydpi/diretorioacademico_icon.xml" value="0.158" />
+        <entry key="app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.132" />
+        <entry key="app/src/main/res/drawable/conheca_aprimorando_background.xml" value="0.231" />
+        <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.229" />
+        <entry key="app/src/main/res/drawable/ic_menu_conheca_aprimorando.xml" value="0.231" />
+        <entry key="app/src/main/res/drawable/ic_menu_slideshow.xml" value="0.231" />
+        <entry key="app/src/main/res/drawable/shape1.xml" value="0.2155" />
+        <entry key="app/src/main/res/font-v26/fontes.xml" value="0.29259259259259257" />
+        <entry key="app/src/main/res/font/fontes.xml" value="0.29259259259259257" />
+        <entry key="app/src/main/res/layout-v24/linha_coordenacoes.xml" value="0.2765625" />
+        <entry key="app/src/main/res/layout/activity_calendario_pdf.xml" value="0.23333333333333334" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/app_bar_main.xml" value="0.22" />
+        <entry key="app/src/main/res/layout/content_calendario_pdf.xml" value="0.328804347826087" />
+        <entry key="app/src/main/res/layout/content_main.xml" value="0.22" />
+        <entry key="app/src/main/res/layout/fragment_calendario.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/fragment_conhecauftm.xml" value="0.39945652173913043" />
+        <entry key="app/src/main/res/layout/fragment_coordenacoes.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/fragment_dirdevdiscente.xml" value="0.39945652173913043" />
+        <entry key="app/src/main/res/layout/fragment_diretoriosacad.xml" value="0.39945652173913043" />
+        <entry key="app/src/main/res/layout/fragment_gallery.xml" value="0.4328125" />
+        <entry key="app/src/main/res/layout/fragment_home.xml" value="0.24344569288389514" />
+        <entry key="app/src/main/res/layout/fragment_iniciacaocientifica.xml" value="0.39945652173913043" />
+        <entry key="app/src/main/res/layout/fragment_institutos.xml" value="0.39945652173913043" />
+        <entry key="app/src/main/res/layout/fragment_ligas.xml" value="0.39945652173913043" />
+        <entry key="app/src/main/res/layout/fragment_muralinformacoes.xml" value="0.39945652173913043" />
+        <entry key="app/src/main/res/layout/fragment_pdfvisualizador.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/fragment_proreitorias.xml" value="0.39945652173913043" />
+        <entry key="app/src/main/res/layout/fragment_slideshow.xml" value="0.328804347826087" />
+        <entry key="app/src/main/res/layout/item_coordenador.xml" value="0.5" />
+        <entry key="app/src/main/res/layout/linha_coordenacoes.xml" value="0.2765625" />
+        <entry key="app/src/main/res/layout/nav_header_main.xml" value="0.37819025522041766" />
+        <entry key="app/src/main/res/layout/pdf_file_password.xml" value="0.2765625" />
+        <entry key="app/src/main/res/layout/regulamento_grad_fragment.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/slide_in.xml" value="0.21822916666666667" />
+        <entry key="app/src/main/res/layout/toolbarcustom.xml" value="0.3795289855072464" />
+        <entry key="app/src/main/res/menu/activity_main_drawer.xml" value="0.5" />
+        <entry key="app/src/main/res/menu/main.xml" value="0.22395833333333334" />
+        <entry key="app/src/main/res/menu/menu.xml" value="0.4328125" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.229" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.229" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/professor.xml" value="0.407" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/professor_round.xml" value="0.228" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

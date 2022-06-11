@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+    <fragment
+        android:id="@+id/calendarioFragment"
+        android:name="com.example.aprimorandoconhecimentoss.ui.calendario.CalendarioFragment"
+        android:label="Calendário"
+        tools:layout="@layout/fragment_calendario" />
+    <fragment
+        android:id="@+id/pdfVisualizador"
+        android:name="com.example.aprimorandoconhecimentoss.ui.pdf.PdfVisualizador"
+        android:label="Visualizador de pdf"
+        tools:layout="@layout/fragment_pdfvisualizador" />
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.aprimorandoconhecimentoss.ui.home.HomeFragment"
+        android:label="Inicio"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/regulamentoGradFragment"
+        android:name="com.example.aprimorandoconhecimentoss.ui.regulamentograd.RegulamentoGradFragment"
+        android:label="regulamento_grad_fragment"
+        tools:layout="@layout/regulamento_grad_fragment" />
+    <fragment
+        android:id="@+id/conhecaUftmFragment"
+        android:name="com.example.aprimorandoconhecimentoss.ui.conhecauftm.ConhecaUftmFragment"
+        android:label="ConhecaUftmFragment" />
+</navigation>

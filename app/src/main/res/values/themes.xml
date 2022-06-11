@@ -1,0 +1,67 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Aprimorando" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/teal_700</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- aqui esta indo pro meno default a direita -->
+        <item name="android:itemTextAppearance">@style/TextosMenu</item>
+    </style>
+
+    <style name="TextosMenu" parent="TextAppearance.AppCompat.Widget.ActionBar.Menu">
+        <item name="fontFamily">@font/latoregular</item>
+        <item name="android:textSize">10dp</item>
+    </style>
+    <style name="TextoBarraSuporte" parent="TextAppearance.AppCompat.Widget.ActionBar.Menu">
+        <item name="fontFamily">@font/latobold</item>
+        <item name="android:textSize">8dp</item>
+        <item name="android:icon">@drawable/ligar_icon</item>
+    </style>
+
+    <style name="TextosBotaoPdf" parent="TextAppearance.AppCompat.Widget.ActionBar.Menu">
+        <item name="fontFamily">@font/latothin</item>
+        <item name="android:textSize">10dp</item>
+    </style>
+    <style name="Theme.Aprimorando.BotoesPdf" parent="">
+        <item name="android:fontFamily">@font/fontes</item>
+        <item name="android:backgroundTint">@color/orange_600</item>
+    </style>
+    <style name="Theme.Aprimorando.BotoesCoord" parent="">
+        <item name="android:fontFamily">@font/fontes</item>
+        <item name="android:backgroundTint">@color/orange_600</item>
+    </style>
+    <style name="Theme.Aprimorando.MyView" parent="">
+        <item name="android:background">@color/gray_400</item>
+
+    </style>
+    <style name="Theme.Aprimorando.Calendario" parent="">
+        <item name="android:background">@color/cardview_shadow_start_color</item>
+
+    </style>
+    <style name="Theme.Aprimorando.Cards" parent="">
+        <item name="android:layout_gravity">start</item>
+    </style>
+    <style name="Theme.Aprimorando.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <!-- aqui esta indo pro meno default a direita -->
+        <item name="android:itemTextAppearance">@style/TextosMenu</item>
+    </style>
+
+    <style name="Theme.Aprimorando.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+           <item name="android:itemTextAppearance">@id/center</item>
+    </style>
+
+    <style name="TextoBarraSuporte." parent="ThemeOverlay.AppCompat.Light">
+        <!-- aqui esta indo pro meno default a direita -->
+        <item name="android:itemTextAppearance">@style/TextoBarraSuporte</item>
+
+    </style>
+</resources>

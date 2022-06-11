@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">Aprimorando</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">aprimorandoconhecimentosuftm@gmail.com
+</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="insta">logo instagram</string>
+    <string name="facebook">logo facebook</string>
+
+    <string name="menu_aprimorando">Conheça o Aprimorando</string>
+    <string name="menu_uftm">Conheça a UFTM</string>
+    <string name="menu_regu_graduacao">Regulamento de Graduação</string>
+    <string name="menu_dir_dev_discentes">Direitos e Deveres do Discente</string>
+    <string name="menu_pro_reitorias">Pró-Reitorias</string>
+    <string name="menu_inst_uftm">Institutos UFTM</string>
+    <string name="menu_diretorios_academicos">Diretórios Acadêmicos</string>
+    <string name="menu_ligas">Ligas</string>
+    <string name="menu_iniciacao_cientifica">Iniciação Científica</string>
+    <string name="menu_coordenacoes">Coordenações</string>
+    <string name="menu_mural_de_informacoes">Mural de Informações</string>
+    <string name="menu_calendario_academico">Calendário Acadêmico</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="inicio">Inicio</string>
+    <string name="texto_inicio">Iniciando suas atividades em 2019, o Projeto Aprimorando os conhecimentos está em seu segundo ano de atividade, sendo composto por um grupo de professores do Departamento de Bioquímica, Farmacologia e Fisiologia (DBFF) do Instituto de Ciências Biológicas e Naturais (ICBN),dois professores - Química e Biologia, e alunos selecionados para serem tutores.</string>
+    <string name="objetivos">Objetivos</string>
+    <string name="texto_objetivos">Possui como objetivo trabalhar às lacunas de aprendizagem nos níveis de formação anteriores referentes aos conteúdos das ciências biológicas e química, apresentar formas e estratégias de ensino diferenciadas priorizando o aprendizado, estimular o aluno a desenvolver metodologias ativas de estudo, valorizar e estimular o estudo das disciplinas básicas focando na sua importância para a profissão escolhida, estimular a criação de hábitos de organização escolar e incentivar e apresentar hábitos de estudo.</string>
+    <string name="desenvolvimento">Desenvolvimento</string>
+    <string name="texto_desenvolvimento">Durante o desenvolvimento de nossas atividades contamos com aulas teóricas-práticas, palestras, aulas interdisciplinares e plantões que servem como meio de atender a demanda dos membros participantes, permitindo que esses sejam contemplados por uma melhor qualidade de ensino e aprendizado.Além de adquirir autoestima, segurança, empoderamento, responsabilidade e foco para concluir a graduação da melhor forma possível e se tornar um profissional incrível para o mercado de trabalho.</string>
+    <string name="title_activity_calendario_pdf">CalendarioPdf</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <!--String para urls de calendario academico-->
+    <string name="calendar_cefores">https://sistemas.uftm.edu.br/integrado/?to=RTZjcGZxTGFsSkFOOXRhSkpVdm5ELzBmWjZPUjNwZVNDdzA3NzFoRzcxeFREdkl2ZllMa25YaklsN0lFMEJ3MHVWQ2ZDVjFiTlFCRXRiUy9jR1k4dDRSU3JtSlk0WUhCUXhXdld4VlpXbFJhNitTN1ZSbm9yQVZycWJidWE2QmhDOHh3RmFPVVE4dEpuVTZrbEtVY1BvbmF5VmVQVHMxUmc4N25ZOENPbVRGQTd4TnVGWm9PQVltYVd3eFJZakdH</string>
+    <string name="calendar_campussede_graduacao">https://sistemas.uftm.edu.br/integrado/?to=RTZjcGZxTGFsSkFOOXRhSkpVdm5ELzBmWjZPUjNwZVNDdzA3NzFoRzcxeFREdkl2ZllMa25YaklsN0lFMEJ3MHVWQ2ZDVjFiTlFCRXRiUy9jR1k4dDRSU3JtSlk0WUhCUXhXdld4VlpXbFJhNitTN1ZSbm9yQVZycWJidWE2QmhDOHh3RmFPVVE4dEpuVTZrbEtVY1BvbmF5VmVQVHMxUmc4N25ZOENPbVRFTU9YN0tGcmZ4RDdHVmVKZUZwSlJx</string>
+    <string name="calendar_lecampo_sede">https://sistemas.uftm.edu.br/integrado/?to=RTZjcGZxTGFsSkFOOXRhSkpVdm5ELzBmWjZPUjNwZVNDdzA3NzFoRzcxeFREdkl2ZllMa25YaklsN0lFMEJ3MHVWQ2ZDVjFiTlFCRXRiUy9jR1k4dDRSU3JtSlk0WUhCUXhXdld4VlpXbFJhNitTN1ZSbm9yQVZycWJidWE2QmhDOHh3RmFPVVE4dEpuVTZrbEtVY1BvbmF5VmVQVHMxUmc4N25ZOENPbVRGOVFocHQwQnFQdnNIYitIYXc0T3p6</string>
+    <string name="calendar_campusiturama">https://sistemas.uftm.edu.br/integrado/?to=RTZjcGZxTGFsSkFOOXRhSkpVdm5ELzBmWjZPUjNwZVNDdzA3NzFoRzcxeFREdkl2ZllMa25YaklsN0lFMEJ3MHVWQ2ZDVjFiTlFCRXRiUy9jR1k4dDRSU3JtSlk0WUhCUXhXdld4VlpXbFJhNitTN1ZSbm9yQVZycWJidWE2QmhDOHh3RmFPVVE4dEpuVTZrbEtVY1BvbmF5VmVQVHMxUmc4N25ZOENPbVRHOW0vUXM5bUlHRUhNUytkanNSY3Uw</string>
+    <string name="itemprofessor">linha professor</string>
+
+
+</resources>

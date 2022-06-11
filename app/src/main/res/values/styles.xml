@@ -1,0 +1,12 @@
+<resources>
+
+    <style name="Widget.Theme.Aprimorando.MyView" parent="">
+        <item name="android:background">@color/gray_400</item>
+
+    </style>
+
+    <style name="Widget.Theme.Aprimorando.BotoesPdf" parent="">
+        <item name="android:background">@color/orange_600</item>
+        <item name="android:fontFamily">@font/latothin</item>
+    </style>
+</resources>

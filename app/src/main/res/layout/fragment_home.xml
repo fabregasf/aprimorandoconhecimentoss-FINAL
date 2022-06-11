@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraintLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:duration="1000"
+    android:fadeScrollbars="true"
+    android:isScrollContainer="true"
+    android:padding="9dp"
+    tools:context=".ui.home.HomeFragment"
+    >
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:src="@mipmap/ic_launcher_foreground"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="54dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <TextView
+        android:id="@+id/label1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="4dp"
+        android:fontFamily="@font/latobold"
+        android:text="@string/inicio"
+        android:textColor="#151515"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+
+    <TextView
+        android:id="@+id/texto1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:fontFamily="@font/latoregular"
+        android:lineSpacingExtra="1sp"
+        android:text="@string/texto_inicio"
+        android:textAlignment="textStart"
+        android:textColor="#322A2A"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/label1"
+        app:layout_constraintVertical_bias="0.018" />
+
+    <TextView
+        android:id="@+id/label2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="4dp"
+        android:fontFamily="@font/latobold"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:text="@string/objetivos"
+        android:textColor="#151515"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/texto1" />
+
+    <TextView
+        android:id="@+id/texto2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:fontFamily="@font/latoregular"
+        android:lineSpacingExtra="1sp"
+        android:paddingTop="2sp"
+        android:text="@string/texto_objetivos"
+        android:textColor="#322A2A"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/label2"
+        app:layout_constraintVertical_bias="0.019" />
+
+    <TextView
+        android:id="@+id/label3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="4dp"
+        android:fontFamily="@font/latobold"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:text="@string/desenvolvimento"
+        android:textColor="#151515"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/texto2"
+        tools:layout_editor_absoluteX="7dp"
+        tools:layout_editor_absoluteY="374dp" />
+
+    <TextView
+        android:id="@+id/texto3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:fontFamily="@font/latoregular"
+        android:lineSpacingExtra="1sp"
+        android:paddingTop="2sp"
+        android:text="@string/texto_desenvolvimento"
+        android:textColor="#322A2A"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/label3"
+        app:layout_constraintVertical_bias="0.019" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

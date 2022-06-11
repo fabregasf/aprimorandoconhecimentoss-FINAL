@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view"
+    >
+
+    <group android:checkableBehavior="all"
+        >
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@mipmap/conheca_aprimorando_foreground"
+            android:title="@string/menu_aprimorando"
+            />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/conheca_uftm_icon"
+            android:title="@string/menu_uftm"
+            />
+        <item
+            android:id="@+id/nav_regu_graducao"
+            android:icon="@drawable/reg_graduacao_icon"
+            android:title="@string/menu_regu_graduacao" />
+        <item
+            android:id="@+id/nav_dir_dev_discentes"
+            android:icon="@drawable/student_icon"
+            android:title="@string/menu_dir_dev_discentes" />
+        <item
+            android:id="@+id/nav_pro_reitorias"
+            android:icon="@drawable/coordenacoes_icon"
+            android:title="@string/menu_pro_reitorias" />
+        <item
+            android:id="@+id/nav_inst_uftm"
+            android:icon="@drawable/institutos_icon"
+            android:title="@string/menu_inst_uftm" />
+        <item
+            android:id="@+id/nav_diretorios_academicos"
+            android:icon="@drawable/diretorioacademico_icon"
+            android:title="@string/menu_diretorios_academicos" />
+        <item
+            android:id="@+id/nav_ligas"
+            android:icon="@drawable/ligar_icon"
+            android:title="@string/menu_ligas" />
+        <item
+            android:id="@+id/nav_iniciacao_cientifica"
+            android:icon="@drawable/iniciacaocientifica_icon"
+            android:title="@string/menu_iniciacao_cientifica" />
+        <item
+            android:id="@+id/nav_coordenacoes"
+            android:icon="@drawable/coordenacoes2_icon"
+            android:title="@string/menu_coordenacoes" />
+        <item
+            android:id="@+id/nav_mural_de_informacoes"
+            android:icon="@drawable/muralinformacoes_icon"
+            android:title="@string/menu_mural_de_informacoes" />
+        <item
+            android:id="@+id/nav_calendario_academico"
+            android:icon="@drawable/diretorioacademico_icon"
+            android:title="@string/menu_calendario_academico" />
+    </group>
+</menu>
