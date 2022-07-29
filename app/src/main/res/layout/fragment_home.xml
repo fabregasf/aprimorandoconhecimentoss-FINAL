@@ -26,11 +26,10 @@
         android:id="@+id/label1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="4dp"
         android:fontFamily="@font/latobold"
         android:text="@string/inicio"
         android:textColor="#151515"
-        android:textSize="16sp"
+        android:textSize="18sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView3" />
 
@@ -59,7 +58,7 @@
         android:paddingTop="@dimen/activity_vertical_margin"
         android:text="@string/objetivos"
         android:textColor="#151515"
-        android:textSize="16sp"
+        android:textSize="18sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/texto1" />
 
@@ -88,7 +87,7 @@
         android:paddingTop="@dimen/activity_vertical_margin"
         android:text="@string/desenvolvimento"
         android:textColor="#151515"
-        android:textSize="16sp"
+        android:textSize="18sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/texto2"
         tools:layout_editor_absoluteX="7dp"

@@ -12,7 +12,7 @@
             android:title="@string/menu_aprimorando"
             />
         <item
-            android:id="@+id/nav_slideshow"
+            android:id="@+id/conhecauftm"
             android:icon="@drawable/conheca_uftm_icon"
             android:title="@string/menu_uftm"
             />

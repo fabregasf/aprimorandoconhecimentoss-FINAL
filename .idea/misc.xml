@@ -4,6 +4,26 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="../../../layout/custom_preview.xml" value="0.2520833333333333" />
+        <entry key="..\:/Users/Fabricio/AndroidStudioProjects/aprimorandoconhecimentoss-FINAL/app/src/main/res/drawable/bg_overlay.xml" value="0.155" />
+        <entry key="..\:/Users/Fabricio/AndroidStudioProjects/aprimorandoconhecimentoss-FINAL/app/src/main/res/font/fontes.xml" value="0.12407407407407407" />
+        <entry key="..\:/Users/Fabricio/AndroidStudioProjects/aprimorandoconhecimentoss-FINAL/app/src/main/res/layout/activity_main.xml" value="0.17074275362318841" />
+        <entry key="..\:/Users/Fabricio/AndroidStudioProjects/aprimorandoconhecimentoss-FINAL/app/src/main/res/layout/app_bar_main.xml" value="0.17074275362318841" />
+        <entry key="..\:/Users/Fabricio/AndroidStudioProjects/aprimorandoconhecimentoss-FINAL/app/src/main/res/layout/content_main.xml" value="0.12447916666666667" />
+        <entry key="..\:/Users/Fabricio/AndroidStudioProjects/aprimorandoconhecimentoss-FINAL/app/src/main/res/layout/fragment_calendario.xml" value="0.125" />
+        <entry key="..\:/Users/Fabricio/AndroidStudioProjects/aprimorandoconhecimentoss-FINAL/app/src/main/res/layout/fragment_conhecauftm.xml" value="0.22" />
+        <entry key="..\:/Users/Fabricio/AndroidStudioProjects/aprimorandoconhecimentoss-FINAL/app/src/main/res/layout/fragment_coordenacoes.xml" value="0.1203125" />
+        <entry key="..\:/Users/Fabricio/AndroidStudioProjects/aprimorandoconhecimentoss-FINAL/app/src/main/res/layout/fragment_diretoriosacad.xml" value="0.17074275362318841" />
+        <entry key="..\:/Users/Fabricio/AndroidStudioProjects/aprimorandoconhecimentoss-FINAL/app/src/main/res/layout/fragment_home.xml" value="0.33" />
+        <entry key="..\:/Users/Fabricio/AndroidStudioProjects/aprimorandoconhecimentoss-FINAL/app/src/main/res/layout/fragment_institutos.xml" value="0.125" />
+        <entry key="..\:/Users/Fabricio/AndroidStudioProjects/aprimorandoconhecimentoss-FINAL/app/src/main/res/layout/fragment_muralinformacoes.xml" value="0.33" />
+        <entry key="..\:/Users/Fabricio/AndroidStudioProjects/aprimorandoconhecimentoss-FINAL/app/src/main/res/layout/fragment_pdfvisualizador.xml" value="0.13125" />
+        <entry key="..\:/Users/Fabricio/AndroidStudioProjects/aprimorandoconhecimentoss-FINAL/app/src/main/res/layout/item_coordenador.xml" value="0.5" />
+        <entry key="..\:/Users/Fabricio/AndroidStudioProjects/aprimorandoconhecimentoss-FINAL/app/src/main/res/layout/listview_mural.xml" value="0.1" />
+        <entry key="..\:/Users/Fabricio/AndroidStudioProjects/aprimorandoconhecimentoss-FINAL/app/src/main/res/layout/regulamento_grad_fragment.xml" value="0.25" />
+        <entry key="..\:/Users/Fabricio/AndroidStudioProjects/aprimorandoconhecimentoss-FINAL/app/src/main/res/layout/slideritemuftm.xml" value="0.16304347826086957" />
+        <entry key="..\:/Users/Fabricio/AndroidStudioProjects/aprimorandoconhecimentoss-FINAL/app/src/main/res/menu/activity_main_drawer.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Fabricio/AndroidStudioProjects/aprimorandoconhecimentoss-FINAL/app/src/main/res/menu/main.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Fabricio/AndroidStudioProjects/aprimorandoconhecimentoss-FINAL/app/src/main/res/menu/menu.xml" value="0.20416666666666666" />
         <entry key="app/src/main/res/drawable-anydpi/coordenacoes_icon.xml" value="0.281" />
         <entry key="app/src/main/res/drawable-anydpi/diretorioacademico_icon.xml" value="0.158" />
         <entry key="app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.132" />

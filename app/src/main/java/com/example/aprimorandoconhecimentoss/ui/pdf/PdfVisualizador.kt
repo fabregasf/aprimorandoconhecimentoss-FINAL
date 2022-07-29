@@ -118,8 +118,8 @@ class PdfVisualizador : Fragment() {
         }
     }
 
-    internal open class DefaultWebChromeClient : WebChromeClient() {
-    }
+    /*internal open class DefaultWebChromeClient : WebChromeClient() {
+    }*/
 
     override fun onDestroyView() {
         super.onDestroyView()

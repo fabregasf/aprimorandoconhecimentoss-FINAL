@@ -30,11 +30,7 @@ class CalendarioFragment : Fragment() {
     ): View {
 
         _binding = FragmentCalendarioBinding.inflate(inflater, container, false)
-
-        /*val texto_tbar = activity?.findViewById<View>(R.id.toolbar_inicial) as TextView
-        texto_tbar.text = "Calendário Acadêmico"
-        setHasOptionsMenu(true)*/
-
+        // Cefores
         binding.botaoView1.setOnClickListener {
             val bundle = Bundle()
             val tipopdf = "pdf_cefores"
@@ -42,18 +38,39 @@ class CalendarioFragment : Fragment() {
             bundle.putString("tipopdf", tipopdf );
             bundle.putString("urlpdf", url_atual);
 
-
             findNavController().navigate(R.id.pdfVisualizador2, bundle)
         }
+        // Pedagogia
         binding.botaoView3.setOnClickListener {
             val bundle = Bundle()
-            val tipopdf = "pdf_campussede_graduacao"
-            val url_atual : String = urlpdf.pdf_graduacao
+            val tipopdf = "pdf_pedagogia_ead"
+            val url_atual : String = urlpdf.pdf_pedagogia
             bundle.putString("tipopdf", tipopdf );
             bundle.putString("urlpdf", url_atual );
 
             findNavController().navigate(R.id.pdfVisualizador2, bundle)
         }
+        // campus sede Uberaba
+        binding.botaoView4.setOnClickListener {
+            val bundle = Bundle()
+            val tipopdf = "pdf_graduacao_uberaba"
+            val url_atual : String = urlpdf.pdf_graduacao_uberaba
+            bundle.putString("tipopdf", tipopdf );
+            bundle.putString("urlpdf", url_atual );
+
+            findNavController().navigate(R.id.pdfVisualizador2, bundle)
+        }
+        // campus Iturama
+        binding.botaoView8.setOnClickListener {
+            val bundle = Bundle()
+            val tipopdf = "pdf_iturama"
+            val url_atual : String = urlpdf.iturama
+            bundle.putString("tipopdf", tipopdf );
+            bundle.putString("urlpdf", url_atual );
+
+            findNavController().navigate(R.id.pdfVisualizador2, bundle)
+        }
+        // licenciatura no campo Lecampo
         binding.botaoView5.setOnClickListener {
             val bundle = Bundle()
             val tipopdf = "pdf_campussede_lecampo"
@@ -63,10 +80,11 @@ class CalendarioFragment : Fragment() {
 
             findNavController().navigate(R.id.pdfVisualizador2, bundle)
         }
-        binding.botaoView6.setOnClickListener {
+        // icene
+        binding.botaoView5.setOnClickListener {
             val bundle = Bundle()
-            val tipopdf = "pdf_campusiturama_graduacao"
-            val url_atual : String = urlpdf.iturama
+            val tipopdf = "pdf_campussede_lecampo"
+            val url_atual : String = urlpdf.lecampo
             bundle.putString("tipopdf", tipopdf );
             bundle.putString("urlpdf", url_atual );
 
@@ -77,7 +95,6 @@ class CalendarioFragment : Fragment() {
     }
 
     override fun onCreateOptionsMenu(menu: Menu, inflater: MenuInflater) {
-        inflater.inflate(R.menu.menu, menu)
         super.onCreateOptionsMenu(menu, inflater)
 
     }

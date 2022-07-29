@@ -13,23 +13,18 @@
             android:id="@+id/deptoquimica"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:fontFamily="@font/latolight"
-            android:text="Departamento de Quimica"
-            android:textSize="10dp"
-            android:layout_marginBottom="40dp"
-            android:layout_marginStart="20dp">
+            android:layout_marginStart="20dp"
+            android:layout_marginBottom="20dp"
+            android:fontFamily="@font/latobold"
+            android:text="Noticia 1"
+            android:textSize="16dp">
 
         </TextView>
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginVertical="10dp"
+            android:layout_marginVertical="20dp"
             android:layout_marginStart="10dp">
-
-            <ImageView
-                android:id="@+id/profcoordenador"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"></ImageView>
 
             <LinearLayout
                 android:layout_width="wrap_content"
@@ -38,21 +33,21 @@
                 android:orientation="vertical">
 
                 <TextView
-                    android:id="@+id/nomeprof"
-                    android:layout_width="wrap_content"
+                    android:id="@+id/textonoticia"
+                    android:layout_width="162dp"
                     android:layout_height="wrap_content"
-                    android:fontFamily="@font/latobold"
-                    android:text="Samantha Queiroz"
-                    android:textSize="18dp">
+                    android:fontFamily="@font/latoregular"
+                    android:text="O Programa de Pós-Graduação em Educação – PPGE publicou o edital de seleção de candidatos para ingresso no mestrado e doutorado no primeiro semestre de 2023."
+                    android:textSize="8dp">
 
                 </TextView>
                 <TextView
-                    android:id="@+id/resumoprof"
+                    android:id="@+id/categoria"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:fontFamily="@font/latothin"
-                    android:text="Profa. Titular Dep. Quimica UFTM"
-                    android:textSize="10dp">
+                    android:fontFamily="@font/latobold"
+                    android:text="Categoria: educação superior"
+                    android:textSize="8dp">
 
                 </TextView>
 
@@ -62,11 +57,12 @@
                 android:id="@+id/botao1"
                 android:layout_width="wrap_content"
                 android:layout_height="40dp"
-                android:text="Ver curriculo"
-                android:textSize="10sp"
-                android:theme="@style/Theme.Aprimorando.BotoesPdf"
+                android:layout_marginLeft="20dp"
                 android:layout_marginTop="0dp"
-                android:layout_marginLeft="20dp">
+                android:backgroundTint="#BCBCBC"
+                android:text="Abrir noticia"
+                android:textSize="10sp"
+                android:theme="@style/Theme.Aprimorando.BotoesPdf">
 
             </Button>
         </LinearLayout>

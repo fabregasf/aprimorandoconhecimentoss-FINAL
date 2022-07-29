@@ -21,11 +21,12 @@
         tools:layout="@layout/fragment_home" />
     <fragment
         android:id="@+id/regulamentoGradFragment"
-        android:name="com.example.aprimorandoconhecimentoss.ui.regulamentograd.RegulamentoGradFragment"
+        android:name="com.example.aprimorandoconhecimentoss.ui.reggraduacao.RegGraduacaoFragment"
         android:label="regulamento_grad_fragment"
         tools:layout="@layout/regulamento_grad_fragment" />
     <fragment
-        android:id="@+id/conhecaUftmFragment"
+        android:id="@+id/conhecauftm"
         android:name="com.example.aprimorandoconhecimentoss.ui.conhecauftm.ConhecaUftmFragment"
-        android:label="ConhecaUftmFragment" />
+        android:label="ConhecaUftmFragment"
+        tools:layout="@layout/fragment_conhecauftm"/>
 </navigation>
