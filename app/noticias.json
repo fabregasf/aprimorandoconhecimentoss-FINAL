@@ -1,0 +1,19 @@
+{
+	"noticia1": {
+		"texto": "Vagas remanescentes para cursos técnicos no CEFORES. Para se inscrever, basta clicar no link abaixo",
+		"url_imagem": "teste"
+	},
+	"noticia2": {
+		"texto": "PROACE divulga a abertura do 2º Processo Seletivo Simplificado de Monitoria Inclusiva na modalidade de Apoio Pedagógico Remoto para o calendário acadêmico 2022/01",
+		"url_imagem": "teste"
+	},
+	"noticia3": {
+		"texto": "Projeto fomenta expressão e diálogo de cultura do campo",
+		"url_imagem": "teste"
+	},
+	"noticia4": {
+		"texto": "Ministério das Relações Exteriores endossa candidatura do Projeto Geopark Uberaba - Terra de Gigantes",
+		"url_imagem": "teste"
+	}
+	
+}
